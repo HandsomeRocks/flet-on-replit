@@ -29,7 +29,7 @@ flet_server_port = os.environ['FLET_SERVER_PORT']
 
 
 def main(page: Page):
-    page.add(Text(value="Testing what happens when I push to Git!"))
+    page.add(Text(value="Hello, Mzwakhe!"))
     page.theme_mode = "light"
 
     def add_clicked(e):
